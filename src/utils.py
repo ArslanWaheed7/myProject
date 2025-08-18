@@ -24,3 +24,4 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 
+
