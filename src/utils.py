@@ -21,7 +21,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 
-def Hello_World() -> None:
+
+def greet() -> None:
     print('Hello, World!')
-    import datetime
-    print(f'The current time is: {datetime.datetime.now()}')
