@@ -34,3 +34,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
         str: Formatted currency string.
     """
     return f"{currency} {value:,.2f}"
+
+def print_hello_world() -> None:
+    print('Hello World!')
