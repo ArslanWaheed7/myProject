@@ -22,3 +22,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 
+
+def generate_random_numbers() -> List[int]:
+    return [random.randint(100, 1000) for _ in range(10)]
