@@ -21,4 +21,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 def print_hello_world() -> None:
+    from datetime import date
     print('Hello World!')
+    print(f'Today's date is {date.today()}')
