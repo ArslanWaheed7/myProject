@@ -26,3 +26,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 
+
+def greet(name: str) -> str:
+    return 'Hello, World!'
