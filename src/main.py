@@ -1,4 +1,8 @@
 from User import User
 
-user1 = User('John', 30)
-user2 = User('Alice', 25)
+
+def main():
+    user1 = User('Alice', 25)
+    user2 = User('Bob', 30)
+
+main()
