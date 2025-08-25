@@ -30,3 +30,6 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 
 
+
+def convert_pkr_to_usd(amount: float, exchange_rate: float) -> float:
+    return amount * exchange_rate
