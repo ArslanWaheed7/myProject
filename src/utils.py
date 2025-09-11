@@ -33,3 +33,18 @@ def format_currency(value: float, currency: str = "USD") -> str:
 
 def convert_pkr_to_usd(amount: float, exchange_rate: float) -> float:
     return amount * exchange_rate
+
+
+def sum_numbers(a: float, b: float, c: float) -> float:
+    """
+    Sum three numbers.
+
+    Args:
+        a (float): First number.
+        b (float): Second number.
+        c (float): Third number.
+
+    Returns:
+        float: Sum of the three numbers.
+    """
+    return a + b + c
