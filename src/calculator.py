@@ -2,9 +2,6 @@ def calculate_tax(income: float, tax_rate: float, currency: str = 'USD') -> floa
     return income * tax_rate
 
 
-def calculate_sum(a: float, b: float) -> float:
+def calculate_sum_v2(a: float, b: float) -> float:
     return a + b
 
-
-def calculate_sum_of_two_numbers(a: float, b: float) -> float:
-    return a + b
