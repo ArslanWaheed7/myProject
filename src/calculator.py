@@ -7,3 +7,10 @@ def calculate_sum_v2(a: float, b: float, operation: str = '+') -> float:
         return a + b
     elif operation == '-':
         return a - b
+    elif operation == '*':
+        return a * b
+    elif operation == '/':
+        if b != 0:
+            return a / b
+        else:
+            raise ZeroDivisionError('Cannot divide by zero')
