@@ -1,2 +1,2 @@
-def best_function_ever(income: float, tax_rate: float, currency: str = 'USD') -> float:
+def tax_Hell(income: float, tax_rate: float, currency: str = 'USD') -> float:
     return income * tax_rate
