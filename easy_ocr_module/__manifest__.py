@@ -1,0 +1,1 @@
+{"name": "Easy OCR Module", "version": "1.0", "category": "Tools", "author": "Your Name", "website": "https://yourwebsite.com", "license": "AGPL-3", "depends": ["base"], "data": [], "demo": [], "installable": True, "auto_install": False}
