@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <record id='view_sales_details_report_tree' model='ir.ui.view'>
+            <field name='name'>Sales Details Report</field>
+            <field name='model'>sales.details.report</field>
+            <field name='arch' type='xml'>
+                <tree>
+                    <field name='customer_id'/>
+                    <field name='product_id'/>
+                    <field name='product_category_id'/>
+                    <field name='order_line_id'/>
+                </tree>
+            </field>
+        </record>
+        <menuitem id='menu_sales_details_report' name='Sales Details Report' parent='sale.menu_sales'/>
+        <menuitem id='menu_sales_details_report_action' name='Sales Details Report' parent='menu_sales_details_report' action='sales_details_report_action'/>
+        <act_window id='sales_details_report_action' name='Sales Details Report' res_model='sales.details.report' view_mode='tree'/>
+    </data>
+</odoo>
